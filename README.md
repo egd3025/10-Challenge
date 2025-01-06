@@ -47,36 +47,36 @@ Move the code for the about page into VS Code files from the CodePen. NOTE: Use 
 6. Preview the page in your browser.
 ## Part 3: Create the product page (3-5 hours) 
 Using the provided assets, create a responsive web design for Gulp Roast’s product page.
-Do a File - Save As for the about page, saving this as products.html for your product page. Then, in the .html file for the product page:
-Update the page title in the HTML boilerplate. 
-Copy and paste the content into the VS Code file. 
-Code the content with accurate semantic HTML. 
-Use sectioning elements to break the page into its semantic parts. 
-Link to image files in `<img>` elements. Be sure to include the alt attribute in any `<img>` elements and to set the width so the image resizes. 
-As needed, add to the media queries in the .css file to include: 
-Grid-based layouts using CSS flexbox and/or CSS grid that are different for each viewport size.
-Background images, as needed.
-Save your files. 
-Validate your code. 
-Preview the page in your browser.
+1. Do a File - Save As for the about page, saving this as products.html for your product page. Then, in the .html file for the product page:
+    * Update the page title in the HTML boilerplate. 
+    * Copy and paste the content into the VS Code file. 
+    * Code the content with accurate semantic HTML. 
+    * Use sectioning elements to break the page into its semantic parts. 
+    * Link to image files in `<img>` elements. Be sure to include the alt attribute in any `<img>` elements and to set the width so the image resizes. 
+2. As needed, add to the media queries in the .css file to include: 
+    * Grid-based layouts using CSS flexbox and/or CSS grid that are different for each viewport size. 
+    * Background images, as needed.
+3. Save your files. 
+4. Validate your code. 
+5. Preview the page in your browser.
 ## Part 4: Create the home page (3-5 hours) 
 Using the provided assets, create a responsive web design for Gulp Roast’s home page. 
-Do a File - Save As for the about page, saving this as index.htmlfor your home page. Then, in the index.html file:
-Update the page title in the HTML boilerplate. 
-Copy and paste the content into the VS Code file. 
-Code the content with accurate semantic HTML. 
-Use sectioning elements to break the page into its semantic parts. 
-Link to image files in `<img>` elements. Be sure to include the alt attribute in any `<img>` elements and to set the width so the image resizes. 
-As needed, add to the media queries in the .css file to include: 
-Grid-based layouts using CSS flexbox and/or CSS grid that are different for each viewport size.
-Background images, as needed.
-Save your files. 
-Validate your code. 
-Preview the page in your browser.
+1. Do a File - Save As for the about page, saving this as index.htmlfor your home page. Then, in the index.html file:
+    * Update the page title in the HTML boilerplate. 
+    * Copy and paste the content into the VS Code file. 
+    * Code the content with accurate semantic HTML. 
+    * Use sectioning elements to break the page into its semantic parts. 
+    * Link to image files in `<img>` elements. Be sure to include the alt attribute in any `<img>` elements and to set the width so the image resizes. 
+2. As needed, add to the media queries in the .css file to include: 
+    * Grid-based layouts using CSS flexbox and/or CSS grid that are different for each viewport size.
+    * Background images, as needed.
+3. Save your files. 
+4. Validate your code. 
+5. Preview the page in your browser.
 ## Part 5: Link your pages together (1-2 hours) 
-On each of the three pages: 
-Update the links in the navigation bar to link all of the pages together. 
-Open each page in your browser and ensure that all of the links work. 
-Validate your code, check your semantic elements, and test your site (including all links) in the browser. 
-Use GitHub Pages to publish your website. Note: When you submit this assignment, you’ll submit the URL of the live site.
-Once your site is on GitHub Pages, check to make sure everything loads and all links work correctly. 
+1. On each of the three pages: 
+    * Update the links in the navigation bar to link all of the pages together. 
+    * Open each page in your browser and ensure that all of the links work. 
+2. Validate your code, check your semantic elements, and test your site (including all links) in the browser. 
+3. Use GitHub Pages to publish your website. Note: When you submit this assignment, you’ll submit the URL of the live site.
+4. Once your site is on GitHub Pages, check to make sure everything loads and all links work correctly. 
