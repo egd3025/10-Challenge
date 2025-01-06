@@ -102,6 +102,9 @@ aside {
     padding: 0 0 12px;
 }
 
+button{
+    border: none;
+}
 .contact-button {
     background-color: #59331D;
     color: white;
