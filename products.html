@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Don't forget to rename my file name to index.html !!-->
+
+<!-- Head element that holds all the metadata (data about data) -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <!-- Add Bootstrap CSS Here on line 10-->
+    <!-- This is REQUIRED for bootstrap to work correctly -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- webpage title -->
+    <title>Products</title>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/products.css">
+</head>
+
+<!-- Body that contains all the webpge content displayed -->
+
+<body>
+    <header>
+        <img src="https://assets.codepen.io/6306176/gulp-logo-light.png" alt="light logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Products</h1>
+            <p>At Gulp Roast, we're passionate about providing you with the highest quality coffee beans that will
+                elevate your brewing experience. Whether you're a home brewer or a professional barista, our carefully
+                selected and roasted beans are designed to bring out the best flavors in every cup.</p>
+            <p>We roast our beans to perfection, ensuring each batch highlights the distinct characteristics of the
+                origin while achieving the ideal balance of aroma, acidity, and body. With Gulp Roast beans, you'll
+                enjoy a fresh, flavorful cup every time, whether you prefer a light, medium, or dark roast.</p>
+            <br>
+        </section>
+        <div class="container-fluid">
+            <div class="row subheadPop">
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://assets.codepen.io/6306176/gulp-coffee-beans.jpg"
+                            alt="Triple Blended Coffee Beans">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Triple-Blended Coffee Beans</h5>
+                            <p class="card-text">Skillfully roasted and carefully blended, our Triple-Blended Coffee
+                                Beans don't just wake you up in the morning, they pack a lasting punch that's sure to
+                                leave you wanting more. With silky smoothness and layered flavors, there's really no
+                                better way to start your day.</p>
+                            <a href="#" class="contact-button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://assets.codepen.io/6306176/gulp-drinking-coffee.jpg"
+                        alt="Lady Drinking Coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">Lightly Roasted Coffee Beans</h5>
+                            <p class="card-text">Our Lightly Roasted Coffee Beans offer the world a chance to brighten
+                                every day with a whole lot of flavor and inspiration. Try these to receive the perfect
+                                balance between bold flavor and subtle sweetness.</p>
+                            <a href="#" class="contact-button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg"
+                        alt="Pouring Coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">Columbian-Blended Espresso Beans</h5>
+                            <p class="card-text">With our Columbian-Blended Espresso Beans, you can finally feel like a
+                                professional barista. Bright and clean with an intense burst of flavor, these
+                                full-bodied beans strike a perfect balance between the most delicate roasts and fruitful
+                                aromas.</p>
+                            <a href="#" class="contact-button">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <br>
+
+    <footer>
+        <p>&copy; 2024 Gulp Roast Coffee. All rights reserved.
+          <a href="www.facebook.com">Facebook</a>
+          <a href="www.x.com">X</a>
+          <a href="www.instagram.com">Instagram</a>
+        </p>
+      </footer>
+
+    <!-- Javascript Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

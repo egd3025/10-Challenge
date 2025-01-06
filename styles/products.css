@@ -1,0 +1,40 @@
+.row{
+    justify-content: space-around;
+}
+
+main img{
+    border-radius: 0;
+    border: 5px solid #59331D;
+}
+
+.container-fluid{
+    justify-items: center;
+}
+
+.card-title{
+    font-weight: 600;
+}
+/* iPad Specific Styles */
+@media (max-width: 1024px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .cardContainer{
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .row{
+        align-content: flex-end;
+    }
+
+    main img{
+        width: 100%;
+    }
+
+    .cardContainer{
+        margin: 10px 0 10px 0;
+    }
+}

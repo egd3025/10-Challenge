@@ -1,0 +1,81 @@
+/* color palette:
+#082B59 bright blue
+#131D26 navy blue
+#59331D coffee
+#D98555 peach
+#F2F2F2 white
+
+Fonts:
+Headlines - Poppins Bold
+Text - Lato
+
+Links all go to https://uxuicurriculum.wixsite.com/gulproast
+
+*/
+
+.info-container {
+    display: flex;
+    /* align-items: center; Vertically center the content */
+    justify-content: space-around;
+    border: 5px solid #59331D;
+    background-color: #59331D;
+}
+
+/* Left div with the image */
+.left img {
+    width: 100%; /* Ensure the image is responsive */
+    max-width: 600px; /* Limit the size of the image */
+    height: 100%; /* Maintain the aspect ratio */
+}
+
+/* Right div with a colorful background */
+.right {
+    flex-grow: 1; /* Take up remaining space */
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* White box for the text */
+.text-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit the size of the text box */
+    text-align: center;
+}
+/* .text-box ul{
+    list-style-type: none;
+} */
+.text-box li{
+    font-size: small;
+}
+
+
+main img{
+    border-radius: 0px;
+    border: none;
+}
+/* iPad Specific Styles */
+@media (max-width: 1024px) {
+    .info-container{
+        flex-direction: column-reverse;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 20px;
+    }
+
+    .left img{
+        max-width: fit-content;
+    }
+}
+
+@media (max-width: 600px) {
+    /* .row{
+        align-content: flex-end;
+    } */
+}
